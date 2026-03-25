@@ -1,0 +1,434 @@
+[
+  {
+    "timestamp": "2019-11-19 20:39:00",
+    "anomaly_score": -0.0538121183718264,
+    "log_event_count": 445,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 30.7,
+    "second_feature": "Log Event Burst",
+    "second_feature_pct": 28.8,
+    "nl_explanation": "Anomaly at 2019-11-19 20:39:00: Memory Pressure (PC2) was suppressed (30.7% contribution), combined with Log Event Burst suppressed (28.8%). Log burst: 445 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 30.7,
+      "Log Event Burst": 28.8,
+      "System Load Spread (PC3)": 19.5,
+      "Network I/O Pattern (PC4)": 12.3,
+      "CPU/Load Pattern (PC1)": 5.2,
+      "Disk/Misc Pattern (PC5)": 3.5
+    }
+  },
+  {
+    "timestamp": "2019-11-19 20:58:00",
+    "anomaly_score": -0.1169444338606694,
+    "log_event_count": 528,
+    "top_feature": "Log Event Burst",
+    "top_feature_pct": 35.6,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 28.2,
+    "nl_explanation": "Anomaly at 2019-11-19 20:58:00: Log Event Burst was suppressed (35.6% contribution), combined with Memory Pressure (PC2) suppressed (28.2%). Log burst: 528 events/min.",
+    "all_contributions": {
+      "Log Event Burst": 35.6,
+      "Memory Pressure (PC2)": 28.2,
+      "System Load Spread (PC3)": 19.6,
+      "Network I/O Pattern (PC4)": 6.4,
+      "Disk/Misc Pattern (PC5)": 5.7,
+      "CPU/Load Pattern (PC1)": 4.6
+    }
+  },
+  {
+    "timestamp": "2019-11-19 20:59:00",
+    "anomaly_score": -0.1040613731284265,
+    "log_event_count": 530,
+    "top_feature": "Log Event Burst",
+    "top_feature_pct": 31.6,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 24.7,
+    "nl_explanation": "Anomaly at 2019-11-19 20:59:00: Log Event Burst was suppressed (31.6% contribution), combined with Memory Pressure (PC2) suppressed (24.7%). Log burst: 530 events/min.",
+    "all_contributions": {
+      "Log Event Burst": 31.6,
+      "Memory Pressure (PC2)": 24.7,
+      "Network I/O Pattern (PC4)": 16.5,
+      "Disk/Misc Pattern (PC5)": 12.5,
+      "System Load Spread (PC3)": 8.8,
+      "CPU/Load Pattern (PC1)": 5.9
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:07:00",
+    "anomaly_score": -0.0948436201979009,
+    "log_event_count": 490,
+    "top_feature": "Log Event Burst",
+    "top_feature_pct": 32.6,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 32.6,
+    "nl_explanation": "Anomaly at 2019-11-19 21:07:00: Log Event Burst was suppressed (32.6% contribution), combined with Memory Pressure (PC2) suppressed (32.6%). Log burst: 490 events/min.",
+    "all_contributions": {
+      "Log Event Burst": 32.6,
+      "Memory Pressure (PC2)": 32.6,
+      "System Load Spread (PC3)": 20.3,
+      "CPU/Load Pattern (PC1)": 7.0,
+      "Network I/O Pattern (PC4)": 4.0,
+      "Disk/Misc Pattern (PC5)": 3.5
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:14:00",
+    "anomaly_score": -0.0116178148397577,
+    "log_event_count": 272,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 42.4,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 19.3,
+    "nl_explanation": "Anomaly at 2019-11-19 21:14:00: Memory Pressure (PC2) was suppressed (42.4% contribution), combined with System Load Spread (PC3) suppressed (19.3%). Log burst: 272 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 42.4,
+      "System Load Spread (PC3)": 19.3,
+      "Network I/O Pattern (PC4)": 12.9,
+      "Log Event Burst": 10.6,
+      "Disk/Misc Pattern (PC5)": 7.4,
+      "CPU/Load Pattern (PC1)": 7.3
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:20:00",
+    "anomaly_score": -0.0054644359679227,
+    "log_event_count": 420,
+    "top_feature": "Log Event Burst",
+    "top_feature_pct": 38.1,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 27.4,
+    "nl_explanation": "Anomaly at 2019-11-19 21:20:00: Log Event Burst was suppressed (38.1% contribution), combined with Memory Pressure (PC2) suppressed (27.4%). Log burst: 420 events/min.",
+    "all_contributions": {
+      "Log Event Burst": 38.1,
+      "Memory Pressure (PC2)": 27.4,
+      "System Load Spread (PC3)": 17.3,
+      "CPU/Load Pattern (PC1)": 11.7,
+      "Network I/O Pattern (PC4)": 4.3,
+      "Disk/Misc Pattern (PC5)": 1.2
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:48:00",
+    "anomaly_score": -0.0119562481233287,
+    "log_event_count": 379,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 45.2,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 17.2,
+    "nl_explanation": "Anomaly at 2019-11-19 22:48:00: Network I/O Pattern (PC4) was suppressed (45.2% contribution), combined with Memory Pressure (PC2) suppressed (17.2%). Log burst: 379 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 45.2,
+      "Memory Pressure (PC2)": 17.2,
+      "CPU/Load Pattern (PC1)": 13.5,
+      "Log Event Burst": 10.2,
+      "System Load Spread (PC3)": 7.4,
+      "Disk/Misc Pattern (PC5)": 6.5
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:49:00",
+    "anomaly_score": -0.0115000160113245,
+    "log_event_count": 342,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 52.0,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 16.7,
+    "nl_explanation": "Anomaly at 2019-11-19 22:49:00: Network I/O Pattern (PC4) was suppressed (52.0% contribution), combined with Memory Pressure (PC2) suppressed (16.7%). Log burst: 342 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 52.0,
+      "Memory Pressure (PC2)": 16.7,
+      "CPU/Load Pattern (PC1)": 16.5,
+      "System Load Spread (PC3)": 11.9,
+      "Log Event Burst": 1.7,
+      "Disk/Misc Pattern (PC5)": 1.2
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:50:00",
+    "anomaly_score": -0.0352484670930485,
+    "log_event_count": 346,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 52.5,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 18.9,
+    "nl_explanation": "Anomaly at 2019-11-19 22:50:00: Network I/O Pattern (PC4) was suppressed (52.5% contribution), combined with Memory Pressure (PC2) suppressed (18.9%). Log burst: 346 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 52.5,
+      "Memory Pressure (PC2)": 18.9,
+      "System Load Spread (PC3)": 11.7,
+      "CPU/Load Pattern (PC1)": 9.5,
+      "Disk/Misc Pattern (PC5)": 6.7,
+      "Log Event Burst": 0.7
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:51:00",
+    "anomaly_score": -0.0352205598547449,
+    "log_event_count": 385,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 34.2,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 26.7,
+    "nl_explanation": "Anomaly at 2019-11-19 22:51:00: Network I/O Pattern (PC4) was suppressed (34.2% contribution), combined with Disk/Misc Pattern (PC5) suppressed (26.7%). Log burst: 385 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 34.2,
+      "Disk/Misc Pattern (PC5)": 26.7,
+      "Memory Pressure (PC2)": 14.1,
+      "CPU/Load Pattern (PC1)": 10.7,
+      "System Load Spread (PC3)": 10.1,
+      "Log Event Burst": 4.1
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:52:00",
+    "anomaly_score": -0.0165711776116191,
+    "log_event_count": 318,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 35.5,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 30.8,
+    "nl_explanation": "Anomaly at 2019-11-19 22:52:00: Disk/Misc Pattern (PC5) was suppressed (35.5% contribution), combined with Network I/O Pattern (PC4) suppressed (30.8%). Log burst: 318 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 35.5,
+      "Network I/O Pattern (PC4)": 30.8,
+      "Memory Pressure (PC2)": 13.3,
+      "CPU/Load Pattern (PC1)": 10.1,
+      "System Load Spread (PC3)": 9.1,
+      "Log Event Burst": 1.2
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:53:00",
+    "anomaly_score": -0.0101933960550059,
+    "log_event_count": 349,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 39.6,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 27.8,
+    "nl_explanation": "Anomaly at 2019-11-19 22:53:00: Disk/Misc Pattern (PC5) was suppressed (39.6% contribution), combined with Network I/O Pattern (PC4) suppressed (27.8%). Log burst: 349 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 39.6,
+      "Network I/O Pattern (PC4)": 27.8,
+      "System Load Spread (PC3)": 12.2,
+      "CPU/Load Pattern (PC1)": 9.9,
+      "Memory Pressure (PC2)": 9.3,
+      "Log Event Burst": 1.1
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:54:00",
+    "anomaly_score": -0.0091461206532251,
+    "log_event_count": 310,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 37.1,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 34.8,
+    "nl_explanation": "Anomaly at 2019-11-19 22:54:00: Disk/Misc Pattern (PC5) was suppressed (37.1% contribution), combined with Network I/O Pattern (PC4) suppressed (34.8%). Log burst: 310 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 37.1,
+      "Network I/O Pattern (PC4)": 34.8,
+      "System Load Spread (PC3)": 11.1,
+      "CPU/Load Pattern (PC1)": 8.5,
+      "Memory Pressure (PC2)": 7.8,
+      "Log Event Burst": 0.6
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:55:00",
+    "anomaly_score": -0.0375905279120534,
+    "log_event_count": 418,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 31.1,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 27.2,
+    "nl_explanation": "Anomaly at 2019-11-19 22:55:00: Disk/Misc Pattern (PC5) was suppressed (31.1% contribution), combined with Network I/O Pattern (PC4) suppressed (27.2%). Log burst: 418 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 31.1,
+      "Network I/O Pattern (PC4)": 27.2,
+      "Memory Pressure (PC2)": 16.0,
+      "Log Event Burst": 13.2,
+      "System Load Spread (PC3)": 8.8,
+      "CPU/Load Pattern (PC1)": 3.7
+    }
+  },
+  {
+    "timestamp": "2019-11-19 23:00:00",
+    "anomaly_score": -0.0097746561312273,
+    "log_event_count": 387,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 46.1,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 24.3,
+    "nl_explanation": "Anomaly at 2019-11-19 23:00:00: Disk/Misc Pattern (PC5) was suppressed (46.1% contribution), combined with Network I/O Pattern (PC4) suppressed (24.3%). Log burst: 387 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 46.1,
+      "Network I/O Pattern (PC4)": 24.3,
+      "Memory Pressure (PC2)": 15.3,
+      "System Load Spread (PC3)": 9.1,
+      "CPU/Load Pattern (PC1)": 3.3,
+      "Log Event Burst": 1.8
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:09:00",
+    "anomaly_score": -0.0630719648759896,
+    "log_event_count": 8,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 28.5,
+    "second_feature": "CPU/Load Pattern (PC1)",
+    "second_feature_pct": 18.6,
+    "nl_explanation": "Anomaly at 2019-11-20 02:09:00: Network I/O Pattern (PC4) was suppressed (28.5% contribution), combined with CPU/Load Pattern (PC1) suppressed (18.6%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 28.5,
+      "CPU/Load Pattern (PC1)": 18.6,
+      "System Load Spread (PC3)": 15.7,
+      "Memory Pressure (PC2)": 14.2,
+      "Log Event Burst": 14.0,
+      "Disk/Misc Pattern (PC5)": 9.1
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:10:00",
+    "anomaly_score": -0.046419393777987,
+    "log_event_count": 8,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 39.1,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 19.2,
+    "nl_explanation": "Anomaly at 2019-11-20 02:10:00: Network I/O Pattern (PC4) was suppressed (39.1% contribution), combined with System Load Spread (PC3) suppressed (19.2%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 39.1,
+      "System Load Spread (PC3)": 19.2,
+      "CPU/Load Pattern (PC1)": 18.1,
+      "Log Event Burst": 12.0,
+      "Memory Pressure (PC2)": 9.7,
+      "Disk/Misc Pattern (PC5)": 1.8
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:11:00",
+    "anomaly_score": -0.0237602506264965,
+    "log_event_count": 8,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 44.3,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 16.6,
+    "nl_explanation": "Anomaly at 2019-11-20 02:11:00: Network I/O Pattern (PC4) was suppressed (44.3% contribution), combined with System Load Spread (PC3) suppressed (16.6%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 44.3,
+      "System Load Spread (PC3)": 16.6,
+      "CPU/Load Pattern (PC1)": 12.8,
+      "Log Event Burst": 10.4,
+      "Memory Pressure (PC2)": 9.3,
+      "Disk/Misc Pattern (PC5)": 6.6
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:12:00",
+    "anomaly_score": -0.0255418977681615,
+    "log_event_count": 8,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 42.6,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 18.6,
+    "nl_explanation": "Anomaly at 2019-11-20 02:12:00: Network I/O Pattern (PC4) was suppressed (42.6% contribution), combined with System Load Spread (PC3) suppressed (18.6%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 42.6,
+      "System Load Spread (PC3)": 18.6,
+      "Disk/Misc Pattern (PC5)": 15.4,
+      "CPU/Load Pattern (PC1)": 9.9,
+      "Log Event Burst": 8.2,
+      "Memory Pressure (PC2)": 5.2
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:13:00",
+    "anomaly_score": -0.0377987178449082,
+    "log_event_count": 8,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 38.2,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 27.1,
+    "nl_explanation": "Anomaly at 2019-11-20 02:13:00: Network I/O Pattern (PC4) was suppressed (38.2% contribution), combined with Disk/Misc Pattern (PC5) suppressed (27.1%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 38.2,
+      "Disk/Misc Pattern (PC5)": 27.1,
+      "System Load Spread (PC3)": 13.2,
+      "CPU/Load Pattern (PC1)": 9.1,
+      "Log Event Burst": 7.0,
+      "Memory Pressure (PC2)": 5.3
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:14:00",
+    "anomaly_score": -0.0316120595026597,
+    "log_event_count": 8,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 36.2,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 34.4,
+    "nl_explanation": "Anomaly at 2019-11-20 02:14:00: Network I/O Pattern (PC4) was suppressed (36.2% contribution), combined with Disk/Misc Pattern (PC5) suppressed (34.4%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 36.2,
+      "Disk/Misc Pattern (PC5)": 34.4,
+      "System Load Spread (PC3)": 11.5,
+      "CPU/Load Pattern (PC1)": 6.4,
+      "Log Event Burst": 5.9,
+      "Memory Pressure (PC2)": 5.5
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:15:00",
+    "anomaly_score": -0.0128354692012983,
+    "log_event_count": 8,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 46.0,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 36.0,
+    "nl_explanation": "Anomaly at 2019-11-20 02:15:00: Disk/Misc Pattern (PC5) was suppressed (46.0% contribution), combined with Network I/O Pattern (PC4) suppressed (36.0%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 46.0,
+      "Network I/O Pattern (PC4)": 36.0,
+      "System Load Spread (PC3)": 8.7,
+      "Log Event Burst": 4.2,
+      "Memory Pressure (PC2)": 4.0,
+      "CPU/Load Pattern (PC1)": 1.1
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:17:00",
+    "anomaly_score": -0.0053550364486837,
+    "log_event_count": 8,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 65.0,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 28.7,
+    "nl_explanation": "Anomaly at 2019-11-20 02:17:00: Disk/Misc Pattern (PC5) was suppressed (65.0% contribution), combined with Network I/O Pattern (PC4) suppressed (28.7%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 65.0,
+      "Network I/O Pattern (PC4)": 28.7,
+      "Memory Pressure (PC2)": 3.4,
+      "Log Event Burst": 1.4,
+      "System Load Spread (PC3)": 1.0,
+      "CPU/Load Pattern (PC1)": 0.5
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:18:00",
+    "anomaly_score": -3.753073659606976e-05,
+    "log_event_count": 8,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 68.1,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 26.0,
+    "nl_explanation": "Anomaly at 2019-11-20 02:18:00: Disk/Misc Pattern (PC5) was suppressed (68.1% contribution), combined with Network I/O Pattern (PC4) suppressed (26.0%). Log burst: 8 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 68.1,
+      "Network I/O Pattern (PC4)": 26.0,
+      "Memory Pressure (PC2)": 2.6,
+      "System Load Spread (PC3)": 2.5,
+      "Log Event Burst": 0.7,
+      "CPU/Load Pattern (PC1)": 0.2
+    }
+  }
+]

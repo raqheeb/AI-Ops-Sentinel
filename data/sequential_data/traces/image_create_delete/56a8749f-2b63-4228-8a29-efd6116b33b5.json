@@ -1,0 +1,810 @@
+{
+  "info": {
+    "started": 0,
+    "last_trace_started": 365,
+    "finished": 654,
+    "name": "total"
+  },
+  "stats": {
+    "wsgi": {
+      "count": 4,
+      "duration": 639
+    },
+    "db": {
+      "count": 14,
+      "duration": 12
+    }
+  },
+  "children": [
+    {
+      "info": {
+        "exception": "None",
+        "name": "wsgi",
+        "service": "public",
+        "started": 0,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "host": "wally113"
+          },
+          "name": "wsgi-stop",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.269497",
+          "trace_id": "6c46e4ba-efe5-4a84-85c8-7bffa91b6fca",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        },
+        "finished": 1,
+        "project": "keystone",
+        "host": "wally113",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "host": "wally113",
+            "request": {
+              "path": "/",
+              "scheme": "http",
+              "method": "GET",
+              "query": ""
+            }
+          },
+          "name": "wsgi-start",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.267962",
+          "trace_id": "6c46e4ba-efe5-4a84-85c8-7bffa91b6fca",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        }
+      },
+      "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+      "trace_id": "6c46e4ba-efe5-4a84-85c8-7bffa91b6fca",
+      "children": []
+    },
+    {
+      "info": {
+        "exception": "None",
+        "name": "wsgi",
+        "service": "public",
+        "started": 5,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "host": "wally113"
+          },
+          "name": "wsgi-stop",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.592207",
+          "trace_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        },
+        "finished": 324,
+        "project": "keystone",
+        "host": "wally113",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "host": "wally113",
+            "request": {
+              "path": "/v3/auth/tokens",
+              "scheme": "http",
+              "method": "POST",
+              "query": ""
+            }
+          },
+          "name": "wsgi-start",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.273005",
+          "trace_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        }
+      },
+      "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+      "trace_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+      "children": [
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {},
+                  "statement": "SELECT 1"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.282448",
+              "trace_id": "339ce9e8-26f8-440c-96c4-94b2a633912b",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 14,
+            "finished": 15,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.283027",
+              "trace_id": "339ce9e8-26f8-440c-96c4-94b2a633912b",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "339ce9e8-26f8-440c-96c4-94b2a633912b",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "2537c5418d8a45d6abfcade96cfd838a"
+                  },
+                  "statement": "SELECT user.enabled AS user_enabled, user.id AS user_id, user.domain_id AS user_domain_id, user.extra AS user_extra, user.default_project_id AS user_default_project_id, user.created_at AS user_created_at, user.last_active_at AS user_last_active_at \nFROM user \nWHERE user.id = %(param_1)s"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.283704",
+              "trace_id": "dc060e48-fe7e-46d5-8ea2-cf1dc338726b",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 15,
+            "finished": 16,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.284828",
+              "trace_id": "dc060e48-fe7e-46d5-8ea2-cf1dc338726b",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "dc060e48-fe7e-46d5-8ea2-cf1dc338726b",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "2537c5418d8a45d6abfcade96cfd838a"
+                  },
+                  "statement": "SELECT user_option.user_id AS user_option_user_id, user_option.option_id AS user_option_option_id, user_option.option_value AS user_option_option_value, anon_1.user_id AS anon_1_user_id \nFROM (SELECT user.id AS user_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN user_option ON anon_1.user_id = user_option.user_id ORDER BY anon_1.user_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.286419",
+              "trace_id": "19768e52-03d9-4070-bfa4-d14e3948a680",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 18,
+            "finished": 19,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.287452",
+              "trace_id": "19768e52-03d9-4070-bfa4-d14e3948a680",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "19768e52-03d9-4070-bfa4-d14e3948a680",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "2537c5418d8a45d6abfcade96cfd838a"
+                  },
+                  "statement": "SELECT local_user.id AS local_user_id, local_user.user_id AS local_user_user_id, local_user.domain_id AS local_user_domain_id, local_user.name AS local_user_name, local_user.failed_auth_count AS local_user_failed_auth_count, local_user.failed_auth_at AS local_user_failed_auth_at, anon_1.user_id AS anon_1_user_id, anon_1.user_domain_id AS anon_1_user_domain_id \nFROM (SELECT user.id AS user_id, user.domain_id AS user_domain_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN local_user ON anon_1.user_id = local_user.user_id AND anon_1.user_domain_id = local_user.domain_id ORDER BY anon_1.user_id, anon_1.user_domain_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.293076",
+              "trace_id": "48113ce3-84e4-4ad1-9013-063df79978c0",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 25,
+            "finished": 26,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.294347",
+              "trace_id": "48113ce3-84e4-4ad1-9013-063df79978c0",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "48113ce3-84e4-4ad1-9013-063df79978c0",
+          "children": []
+        },
+        {
+          "info": {
+            "exception": "None",
+            "name": "db",
+            "service": "public",
+            "started": 28,
+            "finished": 29,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.297504",
+              "trace_id": "b825038a-ae95-40a7-807f-b8c3a6039b8a",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "2537c5418d8a45d6abfcade96cfd838a"
+                  },
+                  "statement": "SELECT password.created_at AS password_created_at, password.expires_at AS password_expires_at, password.id AS password_id, password.local_user_id AS password_local_user_id, password.password_hash AS password_password_hash, password.created_at_int AS password_created_at_int, password.expires_at_int AS password_expires_at_int, password.self_service AS password_self_service, local_user_1.id AS local_user_1_id \nFROM (SELECT user.id AS user_id, user.domain_id AS user_domain_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN local_user AS local_user_1 ON anon_1.user_id = local_user_1.user_id AND anon_1.user_domain_id = local_user_1.domain_id INNER JOIN password ON local_user_1.id = password.local_user_id ORDER BY local_user_1.id, password.created_at_int"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.296151",
+              "trace_id": "b825038a-ae95-40a7-807f-b8c3a6039b8a",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            }
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "b825038a-ae95-40a7-807f-b8c3a6039b8a",
+          "children": []
+        },
+        {
+          "info": {
+            "exception": "None",
+            "name": "db",
+            "service": "public",
+            "started": 30,
+            "finished": 31,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.299717",
+              "trace_id": "2a7e4c09-ae94-4555-89f8-ce481b001838",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "2537c5418d8a45d6abfcade96cfd838a"
+                  },
+                  "statement": "SELECT federated_user.id AS federated_user_id, federated_user.user_id AS federated_user_user_id, federated_user.idp_id AS federated_user_idp_id, federated_user.protocol_id AS federated_user_protocol_id, federated_user.unique_id AS federated_user_unique_id, federated_user.display_name AS federated_user_display_name, anon_1.user_id AS anon_1_user_id \nFROM (SELECT user.id AS user_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN federated_user ON anon_1.user_id = federated_user.user_id ORDER BY anon_1.user_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.298861",
+              "trace_id": "2a7e4c09-ae94-4555-89f8-ce481b001838",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            }
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "2a7e4c09-ae94-4555-89f8-ce481b001838",
+          "children": []
+        },
+        {
+          "info": {
+            "exception": "None",
+            "name": "db",
+            "service": "public",
+            "started": 32,
+            "finished": 33,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.301612",
+              "trace_id": "090ffd77-c880-49c1-8fcf-fd58d582de03",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "2537c5418d8a45d6abfcade96cfd838a"
+                  },
+                  "statement": "SELECT nonlocal_user.domain_id AS nonlocal_user_domain_id, nonlocal_user.name AS nonlocal_user_name, nonlocal_user.user_id AS nonlocal_user_user_id, anon_1.user_domain_id AS anon_1_user_domain_id, anon_1.user_id AS anon_1_user_id \nFROM (SELECT user.domain_id AS user_domain_id, user.id AS user_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN nonlocal_user ON anon_1.user_domain_id = nonlocal_user.domain_id AND anon_1.user_id = nonlocal_user.user_id ORDER BY anon_1.user_domain_id, anon_1.user_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.300912",
+              "trace_id": "090ffd77-c880-49c1-8fcf-fd58d582de03",
+              "project": "keystone",
+              "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            }
+          },
+          "parent_id": "0e6e2a40-0e01-49ea-b6e5-3df2e7353ec2",
+          "trace_id": "090ffd77-c880-49c1-8fcf-fd58d582de03",
+          "children": []
+        }
+      ]
+    },
+    {
+      "info": {
+        "exception": "None",
+        "name": "wsgi",
+        "service": "public",
+        "started": 331,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "host": "wally113"
+          },
+          "name": "wsgi-stop",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.601588",
+          "trace_id": "e9faf0c8-5736-440f-bdec-4a3726788dd7",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        },
+        "finished": 333,
+        "project": "keystone",
+        "host": "wally113",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "host": "wally113",
+            "request": {
+              "path": "/",
+              "scheme": "http",
+              "method": "GET",
+              "query": ""
+            }
+          },
+          "name": "wsgi-start",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.599271",
+          "trace_id": "e9faf0c8-5736-440f-bdec-4a3726788dd7",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        }
+      },
+      "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+      "trace_id": "e9faf0c8-5736-440f-bdec-4a3726788dd7",
+      "children": []
+    },
+    {
+      "info": {
+        "exception": "None",
+        "name": "wsgi",
+        "service": "public",
+        "started": 337,
+        "meta.raw_payload.wsgi-stop": {
+          "info": {
+            "host": "wally113"
+          },
+          "name": "wsgi-stop",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.922263",
+          "trace_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        },
+        "finished": 654,
+        "project": "keystone",
+        "host": "wally113",
+        "meta.raw_payload.wsgi-start": {
+          "info": {
+            "host": "wally113",
+            "request": {
+              "path": "/v3/auth/tokens",
+              "scheme": "http",
+              "method": "POST",
+              "query": ""
+            }
+          },
+          "name": "wsgi-start",
+          "service": "public",
+          "timestamp": "2019-11-19T18:21:27.605756",
+          "trace_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "project": "keystone",
+          "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+          "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+        }
+      },
+      "parent_id": "56a8749f-2b63-4228-8a29-efd6116b33b5",
+      "trace_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+      "children": [
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {},
+                  "statement": "SELECT 1"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.617577",
+              "trace_id": "b5a2bfc8-c37f-408b-be71-f35c95725876",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 349,
+            "finished": 350,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.618292",
+              "trace_id": "b5a2bfc8-c37f-408b-be71-f35c95725876",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "b5a2bfc8-c37f-408b-be71-f35c95725876",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "fef8a3b265194f279c4b48a3986056aa"
+                  },
+                  "statement": "SELECT user.enabled AS user_enabled, user.id AS user_id, user.domain_id AS user_domain_id, user.extra AS user_extra, user.default_project_id AS user_default_project_id, user.created_at AS user_created_at, user.last_active_at AS user_last_active_at \nFROM user \nWHERE user.id = %(param_1)s"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.619203",
+              "trace_id": "5e82bcf4-8c6e-48f4-aef7-22b9aeab172c",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 351,
+            "finished": 352,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.620188",
+              "trace_id": "5e82bcf4-8c6e-48f4-aef7-22b9aeab172c",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "5e82bcf4-8c6e-48f4-aef7-22b9aeab172c",
+          "children": []
+        },
+        {
+          "info": {
+            "exception": "None",
+            "name": "db",
+            "service": "public",
+            "started": 353,
+            "finished": 354,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.622170",
+              "trace_id": "a14c1254-3973-4c0b-ab94-c7774016dd8d",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "fef8a3b265194f279c4b48a3986056aa"
+                  },
+                  "statement": "SELECT user_option.user_id AS user_option_user_id, user_option.option_id AS user_option_option_id, user_option.option_value AS user_option_option_value, anon_1.user_id AS anon_1_user_id \nFROM (SELECT user.id AS user_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN user_option ON anon_1.user_id = user_option.user_id ORDER BY anon_1.user_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.621449",
+              "trace_id": "a14c1254-3973-4c0b-ab94-c7774016dd8d",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            }
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "a14c1254-3973-4c0b-ab94-c7774016dd8d",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "fef8a3b265194f279c4b48a3986056aa"
+                  },
+                  "statement": "SELECT local_user.id AS local_user_id, local_user.user_id AS local_user_user_id, local_user.domain_id AS local_user_domain_id, local_user.name AS local_user_name, local_user.failed_auth_count AS local_user_failed_auth_count, local_user.failed_auth_at AS local_user_failed_auth_at, anon_1.user_id AS anon_1_user_id, anon_1.user_domain_id AS anon_1_user_domain_id \nFROM (SELECT user.id AS user_id, user.domain_id AS user_domain_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN local_user ON anon_1.user_id = local_user.user_id AND anon_1.user_domain_id = local_user.domain_id ORDER BY anon_1.user_id, anon_1.user_domain_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.626076",
+              "trace_id": "7009d2fe-f9f7-46d9-a6d3-59cd4c8c718b",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 358,
+            "finished": 359,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.627108",
+              "trace_id": "7009d2fe-f9f7-46d9-a6d3-59cd4c8c718b",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "7009d2fe-f9f7-46d9-a6d3-59cd4c8c718b",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "fef8a3b265194f279c4b48a3986056aa"
+                  },
+                  "statement": "SELECT password.created_at AS password_created_at, password.expires_at AS password_expires_at, password.id AS password_id, password.local_user_id AS password_local_user_id, password.password_hash AS password_password_hash, password.created_at_int AS password_created_at_int, password.expires_at_int AS password_expires_at_int, password.self_service AS password_self_service, local_user_1.id AS local_user_1_id \nFROM (SELECT user.id AS user_id, user.domain_id AS user_domain_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN local_user AS local_user_1 ON anon_1.user_id = local_user_1.user_id AND anon_1.user_domain_id = local_user_1.domain_id INNER JOIN password ON local_user_1.id = password.local_user_id ORDER BY local_user_1.id, password.created_at_int"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.628694",
+              "trace_id": "25bfbb63-0f61-4e4b-8e20-52293ca5508e",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 360,
+            "finished": 361,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.629737",
+              "trace_id": "25bfbb63-0f61-4e4b-8e20-52293ca5508e",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "25bfbb63-0f61-4e4b-8e20-52293ca5508e",
+          "children": []
+        },
+        {
+          "info": {
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "fef8a3b265194f279c4b48a3986056aa"
+                  },
+                  "statement": "SELECT federated_user.id AS federated_user_id, federated_user.user_id AS federated_user_user_id, federated_user.idp_id AS federated_user_idp_id, federated_user.protocol_id AS federated_user_protocol_id, federated_user.unique_id AS federated_user_unique_id, federated_user.display_name AS federated_user_display_name, anon_1.user_id AS anon_1_user_id \nFROM (SELECT user.id AS user_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN federated_user ON anon_1.user_id = federated_user.user_id ORDER BY anon_1.user_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.631017",
+              "trace_id": "f0c0ae9b-b03f-4885-ac9c-e4855cc049fe",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "name": "db",
+            "service": "public",
+            "started": 363,
+            "finished": 363,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.631818",
+              "trace_id": "f0c0ae9b-b03f-4885-ac9c-e4855cc049fe",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "exception": "None"
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "f0c0ae9b-b03f-4885-ac9c-e4855cc049fe",
+          "children": []
+        },
+        {
+          "info": {
+            "exception": "None",
+            "name": "db",
+            "service": "public",
+            "started": 365,
+            "finished": 365,
+            "project": "keystone",
+            "meta.raw_payload.db-stop": {
+              "info": {
+                "host": "wally113"
+              },
+              "name": "db-stop",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.633647",
+              "trace_id": "155f97ff-14a0-425c-bc32-b681a33bb1f6",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            },
+            "host": "wally113",
+            "meta.raw_payload.db-start": {
+              "info": {
+                "host": "wally113",
+                "db": {
+                  "params": {
+                    "param_1": "fef8a3b265194f279c4b48a3986056aa"
+                  },
+                  "statement": "SELECT nonlocal_user.domain_id AS nonlocal_user_domain_id, nonlocal_user.name AS nonlocal_user_name, nonlocal_user.user_id AS nonlocal_user_user_id, anon_1.user_domain_id AS anon_1_user_domain_id, anon_1.user_id AS anon_1_user_id \nFROM (SELECT user.domain_id AS user_domain_id, user.id AS user_id \nFROM user \nWHERE user.id = %(param_1)s) AS anon_1 INNER JOIN nonlocal_user ON anon_1.user_domain_id = nonlocal_user.domain_id AND anon_1.user_id = nonlocal_user.user_id ORDER BY anon_1.user_domain_id, anon_1.user_id"
+                }
+              },
+              "name": "db-start",
+              "service": "public",
+              "timestamp": "2019-11-19T18:21:27.632975",
+              "trace_id": "155f97ff-14a0-425c-bc32-b681a33bb1f6",
+              "project": "keystone",
+              "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+              "base_id": "56a8749f-2b63-4228-8a29-efd6116b33b5"
+            }
+          },
+          "parent_id": "833f53b7-45b3-424f-931a-cc8ec6b058df",
+          "trace_id": "155f97ff-14a0-425c-bc32-b681a33bb1f6",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
