@@ -1,3 +1,14 @@
+"""
+Log Preprocessing Module — AIOps Sentinel
+
+Loads aggregated OpenStack logs, filters to experiment
+time window, and extracts log templates using Drain3
+algorithm. Converts unstructured logs into categorical
+Event IDs for ML processing.
+
+Output: data/logs_processed.csv
+"""
+
 import pandas as pd
 from drain3 import TemplateMiner
 

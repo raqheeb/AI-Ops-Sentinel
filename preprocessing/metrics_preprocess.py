@@ -1,3 +1,13 @@
+"""
+Metrics Preprocessing Module — AIOps Sentinel
+
+Loads raw host metrics from 5 servers (wally113-124),
+filters to experiment time window, normalizes using
+StandardScaler, and reduces dimensions using PCA.
+
+Output: data/metrics_processed.csv
+"""
+
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler

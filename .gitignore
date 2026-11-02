@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# React / Node
+node_modules/
+.vite/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+.DS_Store
+
+# Python cache files
+*.pyc
+
+# Python cache directories
+**/__pycache__/

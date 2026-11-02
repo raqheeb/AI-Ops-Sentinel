@@ -1,0 +1,434 @@
+[
+  {
+    "timestamp": "2019-11-19 21:00:00",
+    "vae_error": 0.055752415,
+    "log_event_count": 147,
+    "top_feature": "System Load Spread (PC3)",
+    "top_feature_pct": 27.0,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 22.3,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 21:00:00: System Load Spread (PC3) showed abnormal pattern (27.0% contribution), combined with Disk/Misc Pattern (PC5) (22.3%). Reconstruction error: 0.05575. Log activity: 147 events/min.",
+    "all_contributions": {
+      "System Load Spread (PC3)": 27.0,
+      "Disk/Misc Pattern (PC5)": 22.3,
+      "Memory Pressure (PC2)": 21.7,
+      "Network I/O Pattern (PC4)": 18.1,
+      "Log Event Burst": 10.2,
+      "CPU/Load Pattern (PC1)": 0.6
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:01:00",
+    "vae_error": 0.05741183,
+    "log_event_count": 124,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 25.1,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 22.7,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 21:01:00: Memory Pressure (PC2) showed abnormal pattern (25.1% contribution), combined with Disk/Misc Pattern (PC5) (22.7%). Reconstruction error: 0.05741. Log activity: 124 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 25.1,
+      "Disk/Misc Pattern (PC5)": 22.7,
+      "System Load Spread (PC3)": 22.3,
+      "Network I/O Pattern (PC4)": 19.2,
+      "Log Event Burst": 9.7,
+      "CPU/Load Pattern (PC1)": 1.0
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:02:00",
+    "vae_error": 0.054752152,
+    "log_event_count": 118,
+    "top_feature": "System Load Spread (PC3)",
+    "top_feature_pct": 26.3,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 21.8,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 21:02:00: System Load Spread (PC3) showed abnormal pattern (26.3% contribution), combined with Network I/O Pattern (PC4) (21.8%). Reconstruction error: 0.05475. Log activity: 118 events/min.",
+    "all_contributions": {
+      "System Load Spread (PC3)": 26.3,
+      "Network I/O Pattern (PC4)": 21.8,
+      "Disk/Misc Pattern (PC5)": 20.9,
+      "Memory Pressure (PC2)": 19.5,
+      "Log Event Burst": 10.2,
+      "CPU/Load Pattern (PC1)": 1.3
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:03:00",
+    "vae_error": 0.051695947,
+    "log_event_count": 117,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 23.7,
+    "second_feature": "Network I/O Pattern (PC4)",
+    "second_feature_pct": 22.5,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 21:03:00: Disk/Misc Pattern (PC5) showed abnormal pattern (23.7% contribution), combined with Network I/O Pattern (PC4) (22.5%). Reconstruction error: 0.05170. Log activity: 117 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 23.7,
+      "Network I/O Pattern (PC4)": 22.5,
+      "System Load Spread (PC3)": 21.7,
+      "Memory Pressure (PC2)": 20.9,
+      "Log Event Burst": 8.6,
+      "CPU/Load Pattern (PC1)": 2.5
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:04:00",
+    "vae_error": 0.051993135,
+    "log_event_count": 115,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 22.8,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 22.6,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 21:04:00: Memory Pressure (PC2) showed abnormal pattern (22.8% contribution), combined with System Load Spread (PC3) (22.6%). Reconstruction error: 0.05199. Log activity: 115 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 22.8,
+      "System Load Spread (PC3)": 22.6,
+      "Network I/O Pattern (PC4)": 22.0,
+      "Disk/Misc Pattern (PC5)": 21.2,
+      "Log Event Burst": 8.3,
+      "CPU/Load Pattern (PC1)": 3.2
+    }
+  },
+  {
+    "timestamp": "2019-11-19 21:08:00",
+    "vae_error": 0.059200667,
+    "log_event_count": 122,
+    "top_feature": "Network I/O Pattern (PC4)",
+    "top_feature_pct": 25.6,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 23.8,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 21:08:00: Network I/O Pattern (PC4) showed abnormal pattern (25.6% contribution), combined with Disk/Misc Pattern (PC5) (23.8%). Reconstruction error: 0.05920. Log activity: 122 events/min.",
+    "all_contributions": {
+      "Network I/O Pattern (PC4)": 25.6,
+      "Disk/Misc Pattern (PC5)": 23.8,
+      "Memory Pressure (PC2)": 22.5,
+      "System Load Spread (PC3)": 13.1,
+      "Log Event Burst": 9.4,
+      "CPU/Load Pattern (PC1)": 5.5
+    }
+  },
+  {
+    "timestamp": "2019-11-19 22:52:00",
+    "vae_error": 0.050318945,
+    "log_event_count": 318,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 29.1,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 25.7,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 22:52:00: Memory Pressure (PC2) showed abnormal pattern (29.1% contribution), combined with Disk/Misc Pattern (PC5) (25.7%). Reconstruction error: 0.05032. Log activity: 318 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 29.1,
+      "Disk/Misc Pattern (PC5)": 25.7,
+      "System Load Spread (PC3)": 21.0,
+      "Network I/O Pattern (PC4)": 16.4,
+      "CPU/Load Pattern (PC1)": 5.1,
+      "Log Event Burst": 2.7
+    }
+  },
+  {
+    "timestamp": "2019-11-19 23:01:00",
+    "vae_error": 0.049591176,
+    "log_event_count": 344,
+    "top_feature": "CPU/Load Pattern (PC1)",
+    "top_feature_pct": 23.6,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 23.0,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 23:01:00: CPU/Load Pattern (PC1) showed abnormal pattern (23.6% contribution), combined with Memory Pressure (PC2) (23.0%). Reconstruction error: 0.04959. Log activity: 344 events/min.",
+    "all_contributions": {
+      "CPU/Load Pattern (PC1)": 23.6,
+      "Memory Pressure (PC2)": 23.0,
+      "Network I/O Pattern (PC4)": 20.2,
+      "Log Event Burst": 14.1,
+      "Disk/Misc Pattern (PC5)": 11.6,
+      "System Load Spread (PC3)": 7.6
+    }
+  },
+  {
+    "timestamp": "2019-11-19 23:02:00",
+    "vae_error": 0.04960798,
+    "log_event_count": 301,
+    "top_feature": "CPU/Load Pattern (PC1)",
+    "top_feature_pct": 25.8,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 23.5,
+    "nl_explanation": "Temporal anomaly at 2019-11-19 23:02:00: CPU/Load Pattern (PC1) showed abnormal pattern (25.8% contribution), combined with Memory Pressure (PC2) (23.5%). Reconstruction error: 0.04961. Log activity: 301 events/min.",
+    "all_contributions": {
+      "CPU/Load Pattern (PC1)": 25.8,
+      "Memory Pressure (PC2)": 23.5,
+      "Log Event Burst": 18.5,
+      "Network I/O Pattern (PC4)": 17.8,
+      "Disk/Misc Pattern (PC5)": 9.1,
+      "System Load Spread (PC3)": 5.3
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:13:00",
+    "vae_error": 0.055045106,
+    "log_event_count": 8,
+    "top_feature": "CPU/Load Pattern (PC1)",
+    "top_feature_pct": 23.0,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 22.4,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:13:00: CPU/Load Pattern (PC1) showed abnormal pattern (23.0% contribution), combined with Disk/Misc Pattern (PC5) (22.4%). Reconstruction error: 0.05505. Log activity: 8 events/min.",
+    "all_contributions": {
+      "CPU/Load Pattern (PC1)": 23.0,
+      "Disk/Misc Pattern (PC5)": 22.4,
+      "Memory Pressure (PC2)": 21.7,
+      "Log Event Burst": 14.6,
+      "Network I/O Pattern (PC4)": 13.6,
+      "System Load Spread (PC3)": 4.6
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:14:00",
+    "vae_error": 0.070128344,
+    "log_event_count": 8,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 29.4,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 21.4,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:14:00: Disk/Misc Pattern (PC5) showed abnormal pattern (29.4% contribution), combined with Memory Pressure (PC2) (21.4%). Reconstruction error: 0.07013. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 29.4,
+      "Memory Pressure (PC2)": 21.4,
+      "CPU/Load Pattern (PC1)": 15.5,
+      "Network I/O Pattern (PC4)": 14.7,
+      "Log Event Burst": 10.2,
+      "System Load Spread (PC3)": 8.9
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:15:00",
+    "vae_error": 0.07831704,
+    "log_event_count": 8,
+    "top_feature": "Disk/Misc Pattern (PC5)",
+    "top_feature_pct": 33.5,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 28.0,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:15:00: Disk/Misc Pattern (PC5) showed abnormal pattern (33.5% contribution), combined with Memory Pressure (PC2) (28.0%). Reconstruction error: 0.07832. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Disk/Misc Pattern (PC5)": 33.5,
+      "Memory Pressure (PC2)": 28.0,
+      "Network I/O Pattern (PC4)": 12.8,
+      "System Load Spread (PC3)": 12.6,
+      "CPU/Load Pattern (PC1)": 7.5,
+      "Log Event Burst": 5.6
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:16:00",
+    "vae_error": 0.08416707,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 31.4,
+    "second_feature": "Disk/Misc Pattern (PC5)",
+    "second_feature_pct": 26.7,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:16:00: Memory Pressure (PC2) showed abnormal pattern (31.4% contribution), combined with Disk/Misc Pattern (PC5) (26.7%). Reconstruction error: 0.08417. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 31.4,
+      "Disk/Misc Pattern (PC5)": 26.7,
+      "System Load Spread (PC3)": 22.0,
+      "Network I/O Pattern (PC4)": 12.7,
+      "Log Event Burst": 4.6,
+      "CPU/Load Pattern (PC1)": 2.6
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:17:00",
+    "vae_error": 0.08314517,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 40.9,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 21.8,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:17:00: Memory Pressure (PC2) showed abnormal pattern (40.9% contribution), combined with System Load Spread (PC3) (21.8%). Reconstruction error: 0.08315. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 40.9,
+      "System Load Spread (PC3)": 21.8,
+      "Disk/Misc Pattern (PC5)": 20.5,
+      "Network I/O Pattern (PC4)": 10.5,
+      "CPU/Load Pattern (PC1)": 4.9,
+      "Log Event Burst": 1.5
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:18:00",
+    "vae_error": 0.081058316,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 34.6,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 31.7,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:18:00: Memory Pressure (PC2) showed abnormal pattern (34.6% contribution), combined with System Load Spread (PC3) (31.7%). Reconstruction error: 0.08106. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 34.6,
+      "System Load Spread (PC3)": 31.7,
+      "Disk/Misc Pattern (PC5)": 20.2,
+      "Network I/O Pattern (PC4)": 12.7,
+      "CPU/Load Pattern (PC1)": 0.6,
+      "Log Event Burst": 0.2
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:19:00",
+    "vae_error": 0.07475952,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 37.2,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 34.3,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:19:00: Memory Pressure (PC2) showed abnormal pattern (37.2% contribution), combined with System Load Spread (PC3) (34.3%). Reconstruction error: 0.07476. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 37.2,
+      "System Load Spread (PC3)": 34.3,
+      "Disk/Misc Pattern (PC5)": 16.7,
+      "Network I/O Pattern (PC4)": 8.1,
+      "CPU/Load Pattern (PC1)": 3.7,
+      "Log Event Burst": 0.1
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:20:00",
+    "vae_error": 0.07457259,
+    "log_event_count": 13,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 36.7,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 36.0,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:20:00: Memory Pressure (PC2) showed abnormal pattern (36.7% contribution), combined with System Load Spread (PC3) (36.0%). Reconstruction error: 0.07457. Log activity: 13 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 36.7,
+      "System Load Spread (PC3)": 36.0,
+      "Disk/Misc Pattern (PC5)": 15.1,
+      "Network I/O Pattern (PC4)": 5.6,
+      "CPU/Load Pattern (PC1)": 5.5,
+      "Log Event Burst": 1.1
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:21:00",
+    "vae_error": 0.06926664,
+    "log_event_count": 13,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 38.4,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 33.1,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:21:00: Memory Pressure (PC2) showed abnormal pattern (38.4% contribution), combined with System Load Spread (PC3) (33.1%). Reconstruction error: 0.06927. Log activity: 13 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 38.4,
+      "System Load Spread (PC3)": 33.1,
+      "Disk/Misc Pattern (PC5)": 13.2,
+      "CPU/Load Pattern (PC1)": 7.7,
+      "Network I/O Pattern (PC4)": 4.1,
+      "Log Event Burst": 3.5
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:22:00",
+    "vae_error": 0.06934843,
+    "log_event_count": 8,
+    "top_feature": "System Load Spread (PC3)",
+    "top_feature_pct": 41.5,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 37.3,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:22:00: System Load Spread (PC3) showed abnormal pattern (41.5% contribution), combined with Memory Pressure (PC2) (37.3%). Reconstruction error: 0.06935. Log activity: 8 events/min.",
+    "all_contributions": {
+      "System Load Spread (PC3)": 41.5,
+      "Memory Pressure (PC2)": 37.3,
+      "Network I/O Pattern (PC4)": 8.5,
+      "CPU/Load Pattern (PC1)": 4.6,
+      "Disk/Misc Pattern (PC5)": 4.2,
+      "Log Event Burst": 3.9
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:23:00",
+    "vae_error": 0.0686915,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 37.7,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 35.0,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:23:00: Memory Pressure (PC2) showed abnormal pattern (37.7% contribution), combined with System Load Spread (PC3) (35.0%). Reconstruction error: 0.06869. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 37.7,
+      "System Load Spread (PC3)": 35.0,
+      "Network I/O Pattern (PC4)": 16.2,
+      "Disk/Misc Pattern (PC5)": 5.8,
+      "Log Event Burst": 5.1,
+      "CPU/Load Pattern (PC1)": 0.3
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:24:00",
+    "vae_error": 0.06841939,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 42.0,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 37.7,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:24:00: Memory Pressure (PC2) showed abnormal pattern (42.0% contribution), combined with System Load Spread (PC3) (37.7%). Reconstruction error: 0.06842. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 42.0,
+      "System Load Spread (PC3)": 37.7,
+      "Disk/Misc Pattern (PC5)": 8.8,
+      "Network I/O Pattern (PC4)": 6.4,
+      "Log Event Burst": 4.1,
+      "CPU/Load Pattern (PC1)": 1.1
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:25:00",
+    "vae_error": 0.0593257,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 35.9,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 32.5,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:25:00: Memory Pressure (PC2) showed abnormal pattern (35.9% contribution), combined with System Load Spread (PC3) (32.5%). Reconstruction error: 0.05933. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 35.9,
+      "System Load Spread (PC3)": 32.5,
+      "Network I/O Pattern (PC4)": 16.2,
+      "Disk/Misc Pattern (PC5)": 10.9,
+      "Log Event Burst": 2.6,
+      "CPU/Load Pattern (PC1)": 1.9
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:26:00",
+    "vae_error": 0.061987154,
+    "log_event_count": 8,
+    "top_feature": "Memory Pressure (PC2)",
+    "top_feature_pct": 39.0,
+    "second_feature": "System Load Spread (PC3)",
+    "second_feature_pct": 33.5,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:26:00: Memory Pressure (PC2) showed abnormal pattern (39.0% contribution), combined with System Load Spread (PC3) (33.5%). Reconstruction error: 0.06199. Log activity: 8 events/min.",
+    "all_contributions": {
+      "Memory Pressure (PC2)": 39.0,
+      "System Load Spread (PC3)": 33.5,
+      "Network I/O Pattern (PC4)": 19.3,
+      "CPU/Load Pattern (PC1)": 6.4,
+      "Log Event Burst": 1.5,
+      "Disk/Misc Pattern (PC5)": 0.3
+    }
+  },
+  {
+    "timestamp": "2019-11-20 02:27:00",
+    "vae_error": 0.063260354,
+    "log_event_count": 8,
+    "top_feature": "System Load Spread (PC3)",
+    "top_feature_pct": 36.7,
+    "second_feature": "Memory Pressure (PC2)",
+    "second_feature_pct": 32.9,
+    "nl_explanation": "Temporal anomaly at 2019-11-20 02:27:00: System Load Spread (PC3) showed abnormal pattern (36.7% contribution), combined with Memory Pressure (PC2) (32.9%). Reconstruction error: 0.06326. Log activity: 8 events/min.",
+    "all_contributions": {
+      "System Load Spread (PC3)": 36.7,
+      "Memory Pressure (PC2)": 32.9,
+      "Network I/O Pattern (PC4)": 23.0,
+      "CPU/Load Pattern (PC1)": 3.6,
+      "Disk/Misc Pattern (PC5)": 1.9,
+      "Log Event Burst": 1.9
+    }
+  }
+]
