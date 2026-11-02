@@ -400,19 +400,7 @@ Before starting the application:
 
 If environment variables are required, document their names and safe example values in an `.env.example` file. Keep actual credentials in a local environment file that is excluded by `.gitignore`.
 
-## 🖼 Screenshots
 
-Add current screenshots of the dashboard and monitoring views here as the interface is finalized.
-
-Suggested screenshots:
-
-| **Dashboard overview** | **Anomaly analysis** |
-| --- | --- |
-| Add dashboard screenshot | Add anomaly details screenshot |
-
-| **Monitoring view** | **Explanation output** |
-| --- | --- |
-| Add Prometheus/Grafana screenshot | Add explanation screenshot |
 
 ## ⚠️ Current Scope and Limitations
 
