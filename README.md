@@ -1,4 +1,4 @@
-# 🛰️ AI-Ops Sentinel
+﻿# ðŸ›°ï¸ AI-Ops Sentinel
 
 <p align="center">
   <strong>Multi-Modal Anomaly Detection and Explainability for Cloud Microservices</strong>
@@ -21,7 +21,7 @@ The project combines a **VAE-LSTM anomaly detector**, an **Isolation Forest base
 
 ---
 
-## 📋 Table of Contents
+## ðŸ“‹ Table of Contents
 
 - [Project Overview](#-project-overview)
 - [Problem Statement](#-problem-statement)
@@ -46,7 +46,7 @@ The project combines a **VAE-LSTM anomaly detector**, an **Isolation Forest base
 
 ---
 
-## 🧾 Project Overview
+## ðŸ§¾ Project Overview
 
 Modern cloud-native applications are distributed across multiple services. A failure in one service can produce symptoms across several observability signals: unusual metrics, unexpected log patterns, and abnormal traces. Investigating these signals independently can make it difficult to identify the source and understand the impact of an incident.
 
@@ -62,7 +62,7 @@ The project focuses on three signal categories:
 
 The platform is organized around a Python-based processing and detection layer, a FastAPI backend, and a React dashboard.
 
-## 🎯 Problem Statement
+## ðŸŽ¯ Problem Statement
 
 Traditional monitoring often relies on fixed thresholds and separate views for logs, metrics, and traces. This can make it harder to detect complex or early-stage incidents whose symptoms appear across different telemetry sources.
 
@@ -70,9 +70,9 @@ AI-Ops Sentinel investigates the following question:
 
 > How can multiple observability signals be processed and combined to detect anomalous behaviour in cloud microservices, while providing useful explanations that help an engineer investigate the detected events?
 
-The goal is to support anomaly identification and investigation—not to replace human operational decisions.
+The goal is to support anomaly identification and investigationâ€”not to replace human operational decisions.
 
-## ✨ Key Features
+## âœ¨ Key Features
 
 | **Component** | **Purpose** |
 | --- | --- |
@@ -93,20 +93,20 @@ The goal is to support anomaly identification and investigation—not to replace
 
 > Feature availability depends on the selected data, configuration, and execution path. The presence of a module in the repository does not imply that every workflow is deployed or running continuously.
 
-## 🔄 System Workflow
+## ðŸ”„ System Workflow
 
 The high-level workflow is:
 
-1. **Telemetry input** — provide logs, metrics, and trace-related data.
-2. **Preprocessing** — clean and prepare the input data for analysis.
-3. **Feature engineering** — transform raw signals into structured numerical or event-based features.
-4. **Anomaly detection** — run the VAE-LSTM detector and baseline detection workflow.
-5. **Anomaly fusion** — combine relevant outputs into a consolidated view.
-6. **Explanation** — generate supporting information to help interpret detected anomalies.
-7. **API and visualization** — make the resulting information available to the backend and dashboard.
-8. **Investigation** — use the displayed anomaly information as a starting point for further analysis.
+1. **Telemetry input** â€” provide logs, metrics, and trace-related data.
+2. **Preprocessing** â€” clean and prepare the input data for analysis.
+3. **Feature engineering** â€” transform raw signals into structured numerical or event-based features.
+4. **Anomaly detection** â€” run the VAE-LSTM detector and baseline detection workflow.
+5. **Anomaly fusion** â€” combine relevant outputs into a consolidated view.
+6. **Explanation** â€” generate supporting information to help interpret detected anomalies.
+7. **API and visualization** â€” make the resulting information available to the backend and dashboard.
+8. **Investigation** â€” use the displayed anomaly information as a starting point for further analysis.
 
-## 🏗 Architecture
+## ðŸ— Architecture
 
 The following diagram illustrates the logical flow between the main project components. It is a conceptual overview; exact runtime connections depend on the selected execution configuration.
 
@@ -144,7 +144,7 @@ flowchart TD
 | **Backend layer** | Serves application functionality through FastAPI. |
 | **Presentation layer** | Displays system and anomaly information in the React dashboard. |
 
-## 🛠 Tech Stack
+## ðŸ›  Tech Stack
 
 | **Area** | **Technologies** |
 | --- | --- |
@@ -161,11 +161,11 @@ flowchart TD
 | **Monitoring** | Prometheus, Grafana |
 | **Containerization** | Docker |
 
-## 🧠 Detection and Explainability
+## ðŸ§  Detection and Explainability
 
 ### 1. VAE-LSTM
 
-The project includes a Variational Autoencoder–Long Short-Term Memory (VAE-LSTM) model for sequential anomaly detection.
+The project includes a Variational Autoencoderâ€“Long Short-Term Memory (VAE-LSTM) model for sequential anomaly detection.
 
 At a high level:
 
@@ -188,63 +188,63 @@ Drain3 is used in the log-processing workflow to identify log templates from raw
 
 The repository includes explanation-related modules:
 
-- `model/explainer.py` — SHAP-oriented explanation logic.
-- `model/vae_explainer.py` — VAE-related explanation logic.
-- `data/explanations.json` and `data/vae_explanations.json` — saved explanation outputs.
+- `model/explainer.py` â€” SHAP-oriented explanation logic.
+- `model/vae_explainer.py` â€” VAE-related explanation logic.
+- `data/explanations.json` and `data/vae_explanations.json` â€” saved explanation outputs.
 
 These components are intended to provide additional context for interpreting anomaly-detection outputs. Explanation quality and availability depend on the model, input data, and execution configuration.
 
-## 📁 Repository Structure
+## ðŸ“ Repository Structure
 
 The main project layout is organized as follows:
 
 ```text
 AI-Ops-Sentinel/
-├── api/
-│   └── main.py                    # FastAPI application entry point
-│
-├── dashboard/
-│   └── src/
-│       └── App.jsx                # Main React dashboard component
-│
-├── data/
-│   ├── sequential_data/            # Sequential telemetry data
-│   ├── anomalies.csv               # Anomaly output data
-│   ├── anomalies_with_faults.csv   # Anomaly data with fault-related fields
-│   ├── fused_anomalies.csv         # Consolidated anomaly output
-│   ├── live_anomalies.csv          # Live workflow output
-│   ├── explanations.json           # Explanation output
-│   ├── vae_anomalies.csv            # Original VAE anomaly output
-│   ├── vae_anomalies_processed.csv # Processed VAE-related dataset
-│   └── vae_explanations.json        # VAE explanation output
-│
-├── microservice/
-│   ├── app.py                      # Microservice application
-│   ├── Dockerfile                  # Container build instructions
-│   └── requirements.txt            # Microservice dependencies
-│
-├── model/
-│   ├── detector.py                 # Baseline detection logic
-│   ├── explainer.py                # Explanation logic
-│   ├── fault_injection.py          # Fault injection utilities
-│   ├── fusion.py                   # Anomaly fusion logic
-│   ├── live_collector.py           # Live telemetry collection
-│   ├── vae_explainer.py            # VAE explanation logic
-│   ├── vae_lstm.py                 # VAE-LSTM model
-│   └── vae_model.pth               # Saved model weights
-│
-├── preprocessing/
-│   ├── logs_preprocess.py          # Log preprocessing
-│   └── metrics_preprocess.py       # Metric preprocessing
-│
-├── requirements.txt                # Main Python dependencies
-├── .gitignore
-└── README.md
+â”œâ”€â”€ api/
+â”‚   â””â”€â”€ main.py                    # FastAPI application entry point
+â”‚
+â”œâ”€â”€ dashboard/
+â”‚   â””â”€â”€ src/
+â”‚       â””â”€â”€ App.jsx                # Main React dashboard component
+â”‚
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ sequential_data/            # Sequential telemetry data
+â”‚   â”œâ”€â”€ anomalies.csv               # Anomaly output data
+â”‚   â”œâ”€â”€ anomalies_with_faults.csv   # Anomaly data with fault-related fields
+â”‚   â”œâ”€â”€ fused_anomalies.csv         # Consolidated anomaly output
+â”‚   â”œâ”€â”€ live_anomalies.csv          # Live workflow output
+â”‚   â”œâ”€â”€ explanations.json           # Explanation output
+â”‚   â”œâ”€â”€ vae_anomalies.csv            # Original VAE anomaly output
+â”‚   â”œâ”€â”€ vae_anomalies_processed.csv # Processed VAE-related dataset
+â”‚   â””â”€â”€ vae_explanations.json        # VAE explanation output
+â”‚
+â”œâ”€â”€ microservice/
+â”‚   â”œâ”€â”€ app.py                      # Microservice application
+â”‚   â”œâ”€â”€ Dockerfile                  # Container build instructions
+â”‚   â””â”€â”€ requirements.txt            # Microservice dependencies
+â”‚
+â”œâ”€â”€ model/
+â”‚   â”œâ”€â”€ detector.py                 # Baseline detection logic
+â”‚   â”œâ”€â”€ explainer.py                # Explanation logic
+â”‚   â”œâ”€â”€ fault_injection.py          # Fault injection utilities
+â”‚   â”œâ”€â”€ fusion.py                   # Anomaly fusion logic
+â”‚   â”œâ”€â”€ live_collector.py           # Live telemetry collection
+â”‚   â”œâ”€â”€ vae_explainer.py            # VAE explanation logic
+â”‚   â”œâ”€â”€ vae_lstm.py                 # VAE-LSTM model
+â”‚   â””â”€â”€ vae_model.pth               # Saved model weights
+â”‚
+â”œâ”€â”€ preprocessing/
+â”‚   â”œâ”€â”€ logs_preprocess.py          # Log preprocessing
+â”‚   â””â”€â”€ metrics_preprocess.py       # Metric preprocessing
+â”‚
+â”œâ”€â”€ requirements.txt                # Main Python dependencies
+â”œâ”€â”€ .gitignore
+â””â”€â”€ README.md
 ```
 
 Additional files and data artifacts may exist in the repository beyond the main components shown above.
 
-## 📊 Dataset and Data Organization
+## ðŸ“Š Dataset and Data Organization
 
 The project uses the **LO2 dataset** in its telemetry-analysis workflow. The repository also contains sequential data and derived outputs used by the preprocessing, detection, fusion, and explanation components.
 
@@ -265,7 +265,7 @@ Examples of data artifacts include:
 
 Some source data files are large. If you are reproducing the experiments, make sure you have the required input data in the expected directory structure.
 
-## 🚀 Installation Guide
+## ðŸš€ Installation Guide
 
 ### Prerequisites
 
@@ -323,7 +323,7 @@ cd ..
 
 > If dependency installation fails, check the Python and Node.js versions and the package versions supported by the local environment.
 
-## 💻 Running Locally
+## ðŸ’» Running Locally
 
 The backend and dashboard are separate applications and should be started in separate terminals.
 
@@ -354,7 +354,7 @@ http://localhost:5173
 
 Use the local URL printed by Vite if a different port is selected.
 
-## 🐳 Microservice Container
+## ðŸ³ Microservice Container
 
 A separate microservice directory contains an application, Dockerfile, and its own dependency file.
 
@@ -366,7 +366,7 @@ docker build -t aiops-sentinel-microservice ./microservice
 
 The container's required environment variables, exposed port, and runtime command should be checked in `microservice/app.py` and `microservice/Dockerfile` before running it in a customized environment.
 
-## 📈 Monitoring Integration
+## ðŸ“ˆ Monitoring Integration
 
 Prometheus and Grafana are part of the project's monitoring technology stack.
 
@@ -375,7 +375,7 @@ Prometheus and Grafana are part of the project's monitoring technology stack.
 
 The exact scrape targets, exporter configuration, and dashboard provisioning depend on the local monitoring setup. Configure these integrations using the relevant project configuration files available in your working copy.
 
-## 📚 API Documentation
+## ðŸ“š API Documentation
 
 The backend is built with FastAPI. When the API is running and interactive documentation is enabled, the standard FastAPI documentation pages are available at:
 
@@ -386,7 +386,7 @@ http://127.0.0.1:8000/redoc
 
 The actual API routes and request schemas are defined in `api/main.py`. Refer to that file for the current endpoint implementation.
 
-## ⚙️ Configuration
+## âš™ï¸ Configuration
 
 Configuration requirements can vary depending on the workflow being run.
 
@@ -402,19 +402,37 @@ If environment variables are required, document their names and safe example val
 
 ## 🖼 Screenshots
 
-Add current screenshots of the dashboard and monitoring views here as the interface is finalized.
+The following screenshots showcase the AI-Ops Sentinel dashboard, anomaly detection outputs, model comparison, live microservice monitoring, and explainability views.
 
-Suggested screenshots:
+### 1. Anomaly Dashboard Overview
+![AI-Ops Sentinel anomaly dashboard](screenshots/01-anomaly-dashboard-overview.png)
 
-| **Dashboard overview** | **Anomaly analysis** |
-| --- | --- |
-| Add dashboard screenshot | Add anomaly details screenshot |
+### 2. Isolation Forest Anomaly Events
+![Isolation Forest anomaly events](screenshots/02-isolation-forest-anomaly-events.png)
 
-| **Monitoring view** | **Explanation output** |
-| --- | --- |
-| Add Prometheus/Grafana screenshot | Add explanation screenshot |
+### 3. VAE-LSTM Anomaly Events
+![VAE-LSTM anomaly events](screenshots/03-vae-lstm-anomaly-events.png)
 
-## ⚠️ Current Scope and Limitations
+### 4. Model Agreement: Isolation Forest vs VAE-LSTM
+![Model agreement comparison](screenshots/04-model-agreement-comparison.png)
+
+### 5. Live Microservice Anomaly Monitor
+![Live microservice anomaly monitor](screenshots/05-live-microservice-anomaly-monitor-top.png)
+
+![Live microservice anomaly monitor events](screenshots/06-live-microservice-anomaly-monitor-events.png)
+
+![Live microservice anomaly monitor details](screenshots/07-live-microservice-anomaly-monitor-details.png)
+
+### 6. SHAP Fault Explanations
+![SHAP fault explanations](screenshots/08-shap-fault-explanations.png)
+
+### 7. VAE-LSTM Temporal Anomaly Explanations
+![VAE-LSTM temporal anomaly explanations](screenshots/09-vae-lstm-temporal-explanations.png)
+
+### 8. Worst Anomaly Event and System Information
+![Worst anomaly event and system information](screenshots/10-worst-anomaly-and-system-info.png)
+
+## âš ï¸ Current Scope and Limitations
 
 - This repository represents an academic/research project under development, not a fully hardened production monitoring platform.
 - Detection quality depends on the input data, preprocessing, model configuration, and selected thresholds.
@@ -424,7 +442,7 @@ Suggested screenshots:
 - Reproducibility depends on using compatible dependency versions and the expected dataset layout.
 - Large source-data artifacts may take time to clone and transfer.
 
-## 🔭 Future Improvements
+## ðŸ”­ Future Improvements
 
 Potential next steps for the project include:
 
@@ -439,7 +457,7 @@ Potential next steps for the project include:
 - Document Prometheus and Grafana setup with reproducible configuration.
 - Add a deployment guide for running the components together.
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 Contributions, bug reports, and suggestions are welcome.
 
@@ -449,7 +467,7 @@ Contributions, bug reports, and suggestions are welcome.
 4. Test the affected workflow.
 5. Submit a pull request describing the change.
 
-## 📄 License
+## ðŸ“„ License
 
 See the [`LICENSE`](LICENSE) file in the repository for licensing terms.
 
@@ -458,3 +476,4 @@ See the [`LICENSE`](LICENSE) file in the repository for licensing terms.
 <p align="center">
   Built as an academic project exploring multi-modal observability, machine learning, and explainable anomaly detection for cloud microservices.
 </p>
+
